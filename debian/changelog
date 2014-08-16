@@ -1,4 +1,10 @@
-nginx (1.4.4-5) UNRELEASED; urgency=medium
+nginx (1.4.4-5+rtmp1) trusty; urgency=medium
+
+  * Add RTMP module (https://github.com/arut/nginx-rtmp-module)
+
+ -- Malcolm Scott <debianpkg@malc.org.uk>  Sat, 08 Feb 2014 15:20:12 +0000
+
+nginx (1.4.4-5) unstable; urgency=medium
 
   [ Christos Trochalakis ]
   * debian/modules/nginx-lua:

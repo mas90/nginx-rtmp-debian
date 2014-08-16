@@ -31,6 +31,8 @@ else
 	NUMJOBS = 1
 endif
 
+CONFIGURE_OPTS += --add-module=${MODULESDIR}/nginx-rtmp-module
+
 config.env.%:
 	dh_testdir
 	mkdir -p $(BUILDDIR_$*)
